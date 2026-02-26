@@ -18,7 +18,6 @@ channels = [
     "defaults",
 ]
 dependencies = [
-    "_python_abi3_support",
     "accelerate",
     "aiofiles",
     "aiohappyeyeballs",
