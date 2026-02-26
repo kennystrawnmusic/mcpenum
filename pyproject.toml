@@ -41,7 +41,7 @@ dependencies = [
 #    "bleach-with-css",
     "brotli",
 #    "bzip2",
-    "c-ares",
+#    "c-ares",
     "ca-certificates",
     "cached-property",
     "cached_property",
