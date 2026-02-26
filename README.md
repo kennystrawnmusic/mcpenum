@@ -3,11 +3,10 @@
 Tool for enumerating all prompts, resources, and tools associated with MCP server from the command line, no manual coding of MCP payloads required.
 
 ## Installation
-
-Clone this repository and use Conda + UniDep to install:
+Simply use pipx:
 
 ```
-conda install 
+pipx install git+https://github.com/kennystrawnmusic/mcpenum
 ```
 
 ## Usage
@@ -16,4 +15,5 @@ Simply specify the base URL and MCP endpoint, like so:
 
 ```
 mcpenum --url 'http://x.x.x.x:PORT' --endpoint 'mcp'
+
 ```
