@@ -1,8 +1,11 @@
 [project]
 name = "mcpenum"
-version = "0.1.6"
+version = "0.1.7"
 description = "MCP server enumeration tool"
 requires-python = ">=3.11"
+
+[project.scripts]
+mcpenum = "mcpenum:main"
 
 dependencies = [
     "asyncio",
