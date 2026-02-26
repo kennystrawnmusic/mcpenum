@@ -34,7 +34,14 @@ def run_conda_press():
                 target_path = temp_wheel_dir / f"{base_name}-0.1.0-py3-none-any.whl"
                 shutil.move(str(wheel), str(target_path))
 
+def ensure_conda_press():
+    if shutil.which("conda-press") is None:
+        print("[*] Hook: conda-press missing. Attempting binary install...")
+        # Force pip to find a wheel if possible
+        _run([sys.executable, "-m", "pip", "install", "conda-press", "--only-binary=:all:"], shell=True)
+
 def get_requires_for_build_wheel(config_settings=None):
+    ensure_conda_press()
     run_conda_press()
     return _orig.get_requires_for_build_wheel(config_settings)
 
