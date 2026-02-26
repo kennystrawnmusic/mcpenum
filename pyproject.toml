@@ -56,7 +56,7 @@ dependencies = [
     "comm",
     "contourpy",
     "cookiecutter",
-    "cpython",
+#    "cpython",
     "cuda-cccl",
     "cuda-cccl_win-64",
     "cuda-cudart",
