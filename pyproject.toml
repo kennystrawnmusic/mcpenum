@@ -42,7 +42,7 @@ dependencies = [
     "brotli",
 #    "bzip2",
 #    "c-ares",
-    "ca-certificates",
+#    "ca-certificates",
     "cached-property",
     "cached_property",
     "cairo",
