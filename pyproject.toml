@@ -40,8 +40,6 @@ dependencies = [
     "bleach",
 #    "bleach-with-css",
     "brotli",
-#    "brotli-bin",
-    "brotli-python",
     "bzip2",
     "c-ares",
     "ca-certificates",
