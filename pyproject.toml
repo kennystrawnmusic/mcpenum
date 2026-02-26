@@ -38,7 +38,7 @@ dependencies = [
     "binaryornot",
 #    "blas",
     "bleach",
-    "bleach-with-css",
+#    "bleach-with-css",
     "brotli",
     "brotli-bin",
     "brotli-python",
