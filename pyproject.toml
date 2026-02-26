@@ -45,7 +45,7 @@ dependencies = [
 #    "ca-certificates",
     "cached-property",
     "cached_property",
-    "cairo",
+#    "cairo",
     "category_encoders",
     "certifi",
     "cffi",
