@@ -1,10 +1,7 @@
 [project]
 name = "mcpenum"
-version = "0.1.5"
+version = "0.1.6"
 description = "MCP server enumeration tool"
-dynamic = [
-    "dependencies",
-]
 requires-python = ">=3.11"
 
 dependencies = [
